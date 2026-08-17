@@ -7,8 +7,9 @@ A monorepo of small standalone demo apps (React Native + Expo), each buildable t
 | App | Path | Description |
 |---|---|---|
 | Calculator | [`apps/calculator`](apps/calculator) | Scientific calculator (basic + trig/log/pow/memory) |
+| Notes | [`apps/notes`](apps/notes) | Local-only notes app (AsyncStorage, no backend) |
 
-More apps (notes, reminders, tic-tac-toe, no-DB login/register, AI chatbot) will be added under `apps/`.
+More apps (reminders, tic-tac-toe, no-DB login/register, AI chatbot) will be added under `apps/`.
 
 ## Structure
 

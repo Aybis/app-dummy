@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Notes",
+    "slug": "app-dummy-notes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "app-dummy-notes",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.appdummy.notes"
+    },
+    "android": {
+      "package": "com.appdummy.notes",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF8E7",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
