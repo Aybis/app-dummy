@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Reminder",
+    "slug": "app-dummy-reminder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "app-dummy-reminder",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.appdummy.reminder",
+      "infoPlist": {
+        "UIBackgroundModes": []
+      }
+    },
+    "android": {
+      "package": "com.appdummy.reminder",
+      "permissions": ["SCHEDULE_EXACT_ALARM", "POST_NOTIFICATIONS"],
+      "adaptiveIcon": {
+        "backgroundColor": "#F4F6FB",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png"
+        }
+      ]
+    ]
+  }
+}
