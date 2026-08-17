@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Calculator",
+    "slug": "app-dummy-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "app-dummy-calculator",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.appdummy.calculator"
+    },
+    "android": {
+      "package": "com.appdummy.calculator",
+      "adaptiveIcon": {
+        "backgroundColor": "#1C1C1E",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

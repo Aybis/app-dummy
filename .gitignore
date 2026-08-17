@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+android/app/build/
+android/.gradle/
+android/local.properties
+ios/build/
+ios/Pods/
+*.xcworkspace
+*.xcuserstate
+
+# Build outputs
+*.apk
+*.aab
+*.ipa
+
+# Env
+.env
+.env.local
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
