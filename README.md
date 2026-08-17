@@ -9,8 +9,9 @@ A monorepo of small standalone demo apps (React Native + Expo), each buildable t
 | Calculator | [`apps/calculator`](apps/calculator) | Scientific calculator (basic + trig/log/pow/memory) |
 | Notes | [`apps/notes`](apps/notes) | Local-only notes app (AsyncStorage, no backend) |
 | Reminder | [`apps/reminder`](apps/reminder) | To-do/reminder app with local scheduled notifications |
+| Tic Tac Toe | [`apps/tic-tac-toe`](apps/tic-tac-toe) | Classic game, unbeatable minimax AI or 2-player local |
 
-More apps (tic-tac-toe, no-DB login/register, AI chatbot) will be added under `apps/`.
+More apps (no-DB login/register, AI chatbot) will be added under `apps/`.
 
 ## Structure
 
