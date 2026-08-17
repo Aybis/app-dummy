@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Auth Demo",
+    "slug": "app-dummy-auth-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "app-dummy-auth-demo",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.appdummy.authdemo"
+    },
+    "android": {
+      "package": "com.appdummy.authdemo",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F1117",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-secure-store"]
+  }
+}
