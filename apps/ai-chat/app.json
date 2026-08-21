@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "AI Chat",
+    "slug": "app-dummy-ai-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "app-dummy-ai-chat",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.appdummy.aichat"
+    },
+    "android": {
+      "package": "com.appdummy.aichat",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F7F8",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-secure-store"]
+  }
+}
