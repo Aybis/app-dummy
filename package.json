@@ -4,5 +4,8 @@
   "description": "Collection of dummy/demo apps built with React Native + Expo, each buildable to standalone APK/IPA.",
   "workspaces": [
     "apps/*"
-  ]
+  ],
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
 }
