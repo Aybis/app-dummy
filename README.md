@@ -11,8 +11,7 @@ A monorepo of small standalone demo apps (React Native + Expo), each buildable t
 | Reminder | [`apps/reminder`](apps/reminder) | To-do/reminder app with local scheduled notifications |
 | Tic Tac Toe | [`apps/tic-tac-toe`](apps/tic-tac-toe) | Classic game, unbeatable minimax AI or 2-player local |
 | Auth Demo | [`apps/auth-demo`](apps/auth-demo) | Login/register with no backend (local salted-hash accounts) |
-
-More apps (AI chatbot) will be added under `apps/`.
+| AI Chat | [`apps/ai-chat`](apps/ai-chat) | ChatGPT/Claude-style chat — bring your own OpenAI-compatible API key (SecureStore) |
 
 ## Structure
 
