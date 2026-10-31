@@ -12,6 +12,7 @@ A monorepo of small standalone demo apps (React Native + Expo), each buildable t
 | Tic Tac Toe | [`apps/tic-tac-toe`](apps/tic-tac-toe) | Classic game, unbeatable minimax AI or 2-player local |
 | Auth Demo | [`apps/auth-demo`](apps/auth-demo) | Login/register with no backend (local salted-hash accounts) |
 | AI Chat | [`apps/ai-chat`](apps/ai-chat) | ChatGPT/Claude-style chat — bring your own OpenAI-compatible API key (SecureStore) |
+| Chrono Studio | [`apps/chrono-studio`](apps/chrono-studio) | Stopwatch, countdown, and lap timer with haptics (Expo SDK 58 + NativeWind) |
 
 ## Structure
 

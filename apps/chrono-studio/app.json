@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Chrono Studio",
+    "slug": "app-dummy-chrono-studio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "app-dummy-chrono-studio",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#07080b",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#07080b",
+      "resizeMode": "contain",
+      "image": "./assets/splash-icon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.appdummy.chronostudio",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.appdummy.chronostudio",
+      "versionCode": 1,
+      "predictiveBackGestureEnabled": false,
+      "adaptiveIcon": {
+        "backgroundColor": "#07080b",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    }
+  }
+}
